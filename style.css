@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+}
+
+body header {
+  background-color: #f1f1f1;
+  position: relative;
+  height: 95vh;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  padding: 1rem;
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header nav .nav_links ul {
+  font-family: 'Poppins', sans-serif;
+}
+
+body header nav .nav_links ul li {
+  margin: 0 0.5rem;
+  display: inline;
+  list-style-type: none;
+}
+
+body header nav .nav_links ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+body header nav .nav_links ul li a button {
+  font-family: 'Poppins', sans-serif;
+  padding: 0.5rem 2rem;
+  border-radius: 5rem;
+  background: -webkit-gradient(linear, left top, right top, from(#926c26), to(orange));
+  background: linear-gradient(to right, #926c26, orange);
+  color: #fff;
+  border: none;
+}
+
+body header section {
+  margin-top: 9rem;
+  padding: 0 4rem;
+}
+
+body header section .header_head {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+body header section .header_head span {
+  color: #8c52ff;
+}
+
+body header section .primary_buttons a button {
+  font-family: 'Roboto', sans-serif;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+}
+
+body header section .primary_buttons a .primary_buttons_secondary {
+  background: none;
+  border: solid 2px orange;
+}
+
+body main section {
+  padding: 4rem 6rem;
+}
+
+body main .how_we_work_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+
+    header {
+        background-color: #f1f1f1; 
+        position: relative;
+        height: 95vh;
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        padding: 1rem;;
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+            .nav_links {
+                ul {
+                    font-family: 'Poppins', sans-serif;
+
+                    li {
+                        margin: 0 0.5rem;
+                        display: inline;
+                        list-style-type: none;
+
+                        a {
+                            text-decoration: none;
+                            color: #000;
+
+                            button {
+                                font-family: 'Poppins', sans-serif;
+                                padding: 0.5rem 2rem;
+                                border-radius: 5rem;
+                                background: linear-gradient(to right, #926c26, orange);
+                                color: #fff;
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section {
+            margin-top: 9rem;
+            padding: 0 4rem;
+
+            .header_head {
+                font-family: 'Poppins', sans-serif;
+                font-weight: bolder;
+
+                span {
+                    color: #8c52ff;
+                }
+            }
+
+            .primary_buttons {
+                a {
+
+                    button {
+                        font-family: 'Roboto', sans-serif;
+                        padding: 0.5rem 2rem;
+                        border-radius: 0.5rem;
+                    }
+
+                    .primary_buttons_secondary {
+                        background: none;
+                        border: solid 2px orange;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        section {
+            padding: 4rem 6rem;
+        }
+
+        .how_we_work_section {
+            display: flex;
+        }
+    }
+}
