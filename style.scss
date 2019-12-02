@@ -2,16 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
-    font-size: 20px;
+    font-size: 20px;    
 
     header {
-        background-color: #f1f1f1; 
+        background-color: #fff; 
         position: relative;
         height: 95vh;
-        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
         padding: 1rem;;
 
         nav {
@@ -20,7 +20,6 @@ body{
 
             .nav_links {
                 ul {
-                    font-family: 'Poppins', sans-serif;
 
                     li {
                         margin: 0 0.5rem;
@@ -32,12 +31,12 @@ body{
                             color: #000;
 
                             button {
-                                font-family: 'Poppins', sans-serif;
                                 padding: 0.5rem 2rem;
                                 border-radius: 5rem;
-                                background: linear-gradient(to right, #926c26, orange);
+                                background: linear-gradient(to left, #ff9409, #f7524e);
                                 color: #fff;
                                 border: none;
+                                outline: none;
                             }
                         }
                     }
@@ -46,33 +45,48 @@ body{
         }
 
         section {
-            margin-top: 9rem;
-            padding: 0 4rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
 
-            .header_head {
-                font-family: 'Poppins', sans-serif;
-                font-weight: bolder;
-
-                span {
-                    color: #8c52ff;
-                }
-            }
-
-            .primary_buttons {
-                a {
-
-                    button {
-                        font-family: 'Roboto', sans-serif;
-                        padding: 0.5rem 2rem;
-                        border-radius: 0.5rem;
-                    }
-
-                    .primary_buttons_secondary {
-                        background: none;
-                        border: solid 2px orange;
+            .plug_your_business_sec {
+                padding-top: 12rem;
+                .header_head {
+                    font-weight: bolder;
+                    font-size: 3rem;
+    
+                    span {
+                        color: #3f51b5;
                     }
                 }
+    
+                .primary_buttons {
+                    a {
+    
+                        button {
+                            padding: 0.5rem 2rem;
+                            border-radius: 0.5rem;
+                            outline: none;
+                        }
+    
+                        .primary_buttons_primary {
+                            background-color: #3f51b5;
+                            color: #fff;
+                            border: none;
+                        }
+    
+                        .primary_buttons_secondary {
+                            background: none;
+                            border: solid 2px orange;
+                        }
+                    }
+                }
             }
+            
+            .header_image {
+                padding-top: 5rem;
+            }
+            
         }
     }
 
@@ -81,8 +95,57 @@ body{
             padding: 4rem 6rem;
         }
 
-        .how_we_work_section {
-            display: flex;
+        .how_we_work_back {
+            background: linear-gradient(107deg, #5f78da, #303c6d);
+        
+
+            .how_we_work_section {
+                height: 70vh;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                background-color: #fff;
+                border-radius: 1rem;
+                padding: 2rem 1rem;
+                box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                border: solid 0.5px #707070;
+            
+                .how_we_work_section_image {
+                    img {
+                        height: 26rem;
+                    }
+                }
+
+                .how_we_work_section_steps {
+                    padding: 0 4rem 0 0;
+                    font-size: 1.5rem;
+
+                    h2 {
+                        font-size: 2rem;
+                        margin-bottom: 1rem;
+                    }
+
+                    h5 {
+                        font-weight: normal;
+                        font-size: 1.5rem;
+                        margin-bottom: 1rem;
+                    }
+
+                    span {
+                        p {
+                            font-size: 1.25rem;
+                            line-height: 4rem;
+
+                            span {
+                                border-radius: 50% 50%;
+                                background-color: #a2b1ed;
+                                padding: 0.5rem 1rem;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

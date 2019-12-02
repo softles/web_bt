@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -10,11 +11,9 @@ body {
 }
 
 body header {
-  background-color: #f1f1f1;
+  background-color: #fff;
   position: relative;
   height: 95vh;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
   padding: 1rem;
 }
 
@@ -25,10 +24,6 @@ body header nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-body header nav .nav_links ul {
-  font-family: 'Poppins', sans-serif;
 }
 
 body header nav .nav_links ul li {
@@ -43,47 +38,115 @@ body header nav .nav_links ul li a {
 }
 
 body header nav .nav_links ul li a button {
-  font-family: 'Poppins', sans-serif;
   padding: 0.5rem 2rem;
   border-radius: 5rem;
-  background: -webkit-gradient(linear, left top, right top, from(#926c26), to(orange));
-  background: linear-gradient(to right, #926c26, orange);
+  background: -webkit-gradient(linear, right top, left top, from(#ff9409), to(#f7524e));
+  background: linear-gradient(to left, #ff9409, #f7524e);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+body header section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body header section .plug_your_business_sec {
+  padding-top: 12rem;
+}
+
+body header section .plug_your_business_sec .header_head {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+body header section .plug_your_business_sec .header_head span {
+  color: #3f51b5;
+}
+
+body header section .plug_your_business_sec .primary_buttons a button {
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+body header section .plug_your_business_sec .primary_buttons a .primary_buttons_primary {
+  background-color: #3f51b5;
   color: #fff;
   border: none;
 }
 
-body header section {
-  margin-top: 9rem;
-  padding: 0 4rem;
-}
-
-body header section .header_head {
-  font-family: 'Poppins', sans-serif;
-  font-weight: bolder;
-}
-
-body header section .header_head span {
-  color: #8c52ff;
-}
-
-body header section .primary_buttons a button {
-  font-family: 'Roboto', sans-serif;
-  padding: 0.5rem 2rem;
-  border-radius: 0.5rem;
-}
-
-body header section .primary_buttons a .primary_buttons_secondary {
+body header section .plug_your_business_sec .primary_buttons a .primary_buttons_secondary {
   background: none;
   border: solid 2px orange;
+}
+
+body header section .header_image {
+  padding-top: 5rem;
 }
 
 body main section {
   padding: 4rem 6rem;
 }
 
-body main .how_we_work_section {
+body main .how_we_work_back {
+  background: linear-gradient(107deg, #5f78da, #303c6d);
+}
+
+body main .how_we_work_back .how_we_work_section {
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 0.5px #707070;
+}
+
+body main .how_we_work_back .how_we_work_section .how_we_work_section_image img {
+  height: 26rem;
+}
+
+body main .how_we_work_back .how_we_work_section .how_we_work_section_steps {
+  padding: 0 4rem 0 0;
+  font-size: 1.5rem;
+}
+
+body main .how_we_work_back .how_we_work_section .how_we_work_section_steps h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+body main .how_we_work_back .how_we_work_section .how_we_work_section_steps h5 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+body main .how_we_work_back .how_we_work_section .how_we_work_section_steps span p {
+  font-size: 1.25rem;
+  line-height: 4rem;
+}
+
+body main .how_we_work_back .how_we_work_section .how_we_work_section_steps span p span {
+  border-radius: 50% 50%;
+  background-color: #a2b1ed;
+  padding: 0.5rem 1rem;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
