@@ -10,6 +10,33 @@ body {
   font-size: 20px;
 }
 
+/*Typography*/
+
+
+
+h1, h2, h3, h4, p {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+}
+
+h2{
+  font-family: Poppins;
+  font-size: 40px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+}
+
+
+
 body header {
   background-color: #fff;
   position: relative;
@@ -148,71 +175,5 @@ body main .how_we_work_back .how_we_work_section .how_we_work_section_steps span
   background-color: #a2b1ed;
   padding: 0.5rem 1rem;
   color: #fff;
-}
-
-body main .solution_section .solution_sec_head {
-  text-align: center;
-}
-
-body main .solution_section .solution_sec_head .solution_sec_head_primary {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-body main .solution_section .solution_sec_head .solution_sec_head_secondary {
-  font-weight: normal;
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-body main .solution_section .solution_card_section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-body main .solution_section .solution_card_section .solution_card {
-  margin: 0 0.75rem;
-  min-width: 31.5%;
-  border-radius: 0.5rem;
-  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  border: solid 2px #c5c5c5;
-  background-color: #fff;
-  padding-bottom: 1rem;
-}
-
-body main .solution_section .solution_card_section .solution_card .solution_card_head {
-  padding: 1rem;
-  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  background-color: #f8f8f8;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.52;
-}
-
-body main .solution_section .solution_card_section .solution_card ul {
-  padding: 1.5rem 1rem;
-  list-style-type: none;
-}
-
-body main .solution_section .solution_card_section .solution_card ul li {
-  font-size: 1.25rem;
-  line-height: 1.6;
-}
-
-body main .solution_section .solution_card_section .solution_card p {
-  font-size: 1.25rem;
-  color: #6079da;
-  padding: 0 1rem;
-}
-
-body main .solution_section .solution_card_section .solution_card p a {
-  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
