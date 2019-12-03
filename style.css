@@ -149,6 +149,7 @@ body main .how_we_work_back .how_we_work_section .how_we_work_section_steps span
   padding: 0.5rem 1rem;
   color: #fff;
 }
+<<<<<<< HEAD
 
 body main .solution_section .solution_sec_head {
   text-align: center;
@@ -216,3 +217,6 @@ body main .solution_section .solution_card_section .solution_card p a {
   text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
+=======
+/*# sourceMappingURL=style.css.map */
+>>>>>>> b497826998242b351ddb43b38addcc6e5fdae853
