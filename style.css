@@ -72,7 +72,7 @@ body header section .plug_your_business_sec .header_head span {
 }
 
 body header section .plug_your_business_sec .primary_buttons a button {
-  padding: 0.5rem 2rem;
+  padding: 0.75rem 2rem;
   border-radius: 0.5rem;
   outline: none;
 }
@@ -149,7 +149,6 @@ body main .how_we_work_back .how_we_work_section .how_we_work_section_steps span
   padding: 0.5rem 1rem;
   color: #fff;
 }
-<<<<<<< HEAD
 
 body main .solution_section .solution_sec_head {
   text-align: center;
@@ -216,7 +215,218 @@ body main .solution_section .solution_card_section .solution_card p {
 body main .solution_section .solution_card_section .solution_card p a {
   text-decoration: none;
 }
+
+body main .portfolio_section {
+  background: linear-gradient(107deg, #5f78da, #303c6d);
+}
+
+body main .portfolio_section .portfolio_sec_head {
+  text-align: center;
+  color: #fff;
+}
+
+body main .portfolio_section .portfolio_sec_head .portfolio_sec_head_primary {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+body main .portfolio_section .portfolio_sec_head .portfolio_sec_head_secondary {
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+body main .portfolio_section .portfolio {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 0.5px #707070;
+  padding: 3rem 5rem;
+}
+
+body main .portfolio_section .portfolio .portfolio_slider {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_content {
+  padding: 2em 0em;
+}
+
+body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_content .portfolio_slider_content_head .portfolio_slider_content_head_main {
+  font-size: 1.5rem;
+}
+
+body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_content .portfolio_slider_content_head .portfolio_slider_content_head_sub {
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_content .portfolio_slider_content_text {
+  padding-top: 1rem;
+}
+
+body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_content .portfolio_slider_content_text .portfolio_slider_content_text_head {
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #6079da;
+}
+
+body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_content .portfolio_slider_content_text p {
+  padding-top: 1rem;
+}
+
+body main .portfolio_section .portfolio .portfolio_slider_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #6079da;
+  font-weight: 600;
+}
+
+body main .reach_us_section .reach_us_section_head {
+  text-align: center;
+}
+
+body main .reach_us_section .reach_us_section_head .reach_us_section_head_primary {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+body main .reach_us_section .reach_us_section_head .reach_us_section_head_secondary {
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+body main .reach_us_section .reach_us_card_section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+body main .reach_us_section .reach_us_card_section .reach_us_card {
+  margin: 0 0.75rem;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 2px #c5c5c5;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+body main .reach_us_section .reach_us_card_section .reach_us_card .reach_us_card_head {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+body main .reach_us_section .reach_us_card_section .reach_us_card form {
+  margin-top: 1rem;
+}
+
+body main .reach_us_section .reach_us_card_section .reach_us_card form input,
+body main .reach_us_section .reach_us_card_section .reach_us_card form textarea {
+  border: solid 0.1px #f2f2f2;
+  background-color: #f2f2f2;
+  font-size: 1.25rem;
+  color: #aca9a9c7;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+body main .reach_us_section .reach_us_card_section .reach_us_card form input::-webkit-input-placeholder,
+body main .reach_us_section .reach_us_card_section .reach_us_card form textarea::-webkit-input-placeholder {
+  color: #aca9a9c7;
+}
+
+body main .reach_us_section .reach_us_card_section .reach_us_card form input:-ms-input-placeholder,
+body main .reach_us_section .reach_us_card_section .reach_us_card form textarea:-ms-input-placeholder {
+  color: #aca9a9c7;
+}
+
+body main .reach_us_section .reach_us_card_section .reach_us_card form input::-ms-input-placeholder,
+body main .reach_us_section .reach_us_card_section .reach_us_card form textarea::-ms-input-placeholder {
+  color: #aca9a9c7;
+}
+
+body main .reach_us_section .reach_us_card_section .reach_us_card form input::placeholder,
+body main .reach_us_section .reach_us_card_section .reach_us_card form textarea::placeholder {
+  color: #aca9a9c7;
+}
+
+body main .reach_us_section .reach_us_card_section .reach_us_card form button {
+  padding: 0.5rem 2rem;
+  background: -webkit-gradient(linear, right top, left top, from(#ff9409), to(#f7524e));
+  background: linear-gradient(to left, #ff9409, #f7524e);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+}
+
+body main .reach_us_section .reach_us_card_section .reach_us_card .schedule_call input {
+  width: 49.5%;
+  display: inline-block;
+}
+
+body main .reach_us_section .reach_us_card_section .reach_us_card .schedule_call .schedule_call_btn {
+  padding: 0.5rem 3rem;
+}
+
+body footer {
+  padding-bottom: 2rem;
+}
+
+body footer .footer_main {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body footer .footer_main ul {
+  border-right-color: #000;
+  list-style-type: none;
+}
+
+body footer .footer_main ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+body footer .footer_main .footer_main_col_four li a:hover {
+  text-decoration: underline;
+  color: #6079da;
+}
+
+body footer .footer_main span {
+  height: 5.5rem;
+  width: 1px;
+  background-color: #000;
+}
+
+body footer .footer_sub {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+body footer .footer_sub .social_icons i {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+body footer .footer_sub .copyright {
+  font-size: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
-=======
-/*# sourceMappingURL=style.css.map */
->>>>>>> b497826998242b351ddb43b38addcc6e5fdae853
