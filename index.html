@@ -122,7 +122,7 @@
             </div>
 
             <div class="portfolio">
-                <div class="portfolio_slider">
+                <div class="portfolio_slider tab-content" id="content-1">
                     <span class="portfolio_slider_content">
                         <div class="portfolio_slider_content_head">
                             <h6 class="portfolio_slider_content_head_main">The Beer Cafe</h6>
@@ -142,9 +142,49 @@
                     </span>
                 </div>
 
+                <div class="portfolio_slider tab-content" id="content-2">
+                    <span class="portfolio_slider_content">
+                        <div class="portfolio_slider_content_head">
+                            <h6 class="portfolio_slider_content_head_main">Softles</h6>
+                            <h6 class="portfolio_slider_content_head_sub">Marketing</h6>
+                            <hr/>
+                        </div>
+
+                        <div class="portfolio_slider_content_text">
+                            <h6 class="portfolio_slider_content_text_head">Website Design</h6>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta magni reiciendis dolor eos facere repellendus totam, deleniti libero commodi eveniet animi voluptatum? Laudantium at suscipit libero ratione aspernatur impedit asperiores natus consequuntur architecto labore voluptas facere ut excepturi maxime voluptate a, aliquam quasi, quidem voluptatum. Repellendus beatae voluptatum exercitationem corrupti.</p>
+                        </div>
+
+                    </span>
+
+                    <span class="portfolio_slider_image">
+                        <img src="./Images/header_image_small.jpg" alt="Project Image"/>
+                    </span>
+                </div>
+
+                <div class="portfolio_slider tab-content" id="content-3">
+                    <span class="portfolio_slider_content">
+                        <div class="portfolio_slider_content_head">
+                            <h6 class="portfolio_slider_content_head_main">project 3</h6>
+                            <h6 class="portfolio_slider_content_head_sub">Advocating</h6>
+                            <hr/>
+                        </div>
+
+                        <div class="portfolio_slider_content_text">
+                            <h6 class="portfolio_slider_content_text_head">Website Design</h6>
+                            <p>The largest beer café chain of India, beer café was looking for a new website who match with there brand name. The largest beer café chain of India, beer café was looking for a new website. The largest beer café chain of India, beer café was looking for a new website who match with there brand name.</p>
+                        </div>
+
+                    </span>
+
+                    <span class="portfolio_slider_image">
+                        <img src="./Images/header_image_small.jpg" alt="Project Image"/>
+                    </span>
+                </div>
+
                 <div class="portfolio_slider_buttons">
-                    <span class="prev_btn"><i class="fa fa-caret-left"></i> PREV PROJECT</span>
-                    <span class="prev_btn">NEXT PROJECT <i class="fa fa-caret-right"></i></span>
+                    <button class="prev_btn tablinks" onclick="contentPanel(event, 'content-1')"><i class="fa fa-caret-left"></i> PREV PROJECT</button>
+                    <button class="next_btn tablinks" onclick="contentPanel(event, 'content-2')">NEXT PROJECT <i class="fa fa-caret-right"></i></button>
                 </div>
             </div>
         </section>
@@ -222,6 +262,7 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 
 </html>

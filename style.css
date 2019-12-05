@@ -249,6 +249,26 @@ body main .portfolio_section .portfolio .portfolio_slider {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+  -webkit-animation: fadeIn 1s ease-in;
+          animation: fadeIn 1s ease-in;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_content {
@@ -285,8 +305,15 @@ body main .portfolio_section .portfolio .portfolio_slider_buttons {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+body main .portfolio_section .portfolio .portfolio_slider_buttons button {
+  background-color: transparent;
+  border: none;
   color: #6079da;
   font-weight: 600;
+  font-size: 1rem;
+  outline: none;
 }
 
 body main .reach_us_section .reach_us_section_head {

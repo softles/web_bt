@@ -238,6 +238,17 @@ body{
                 .portfolio_slider {
                     display: grid;
                     grid-template-columns: 1fr 1fr;
+                    animation: fadeIn 1s ease-in;
+
+                    @keyframes fadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+
+                        100% {
+                            opacity: 1;
+                        }
+                    }
 
                     .portfolio_slider_content {
                         padding: 2em 0em;
@@ -272,8 +283,15 @@ body{
                 .portfolio_slider_buttons {
                     display: flex;
                     justify-content: space-between;
-                    color: #6079da;
-                    font-weight: 600;
+
+                    button {
+                        background-color: transparent;
+                        border: none;
+                        color: #6079da;
+                        font-weight: 600;
+                        font-size: 1rem;
+                        outline: none;
+                    }
                 }
             }
         }
