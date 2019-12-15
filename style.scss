@@ -12,11 +12,11 @@ body{
         background-color: #fff; 
         position: relative;
         height: 95vh;
-        padding: 1rem;;
 
         nav {
             display: flex;
             justify-content: space-between;
+            padding: 1rem 0 1rem 0;
 
             .nav_links {
                 ul {
@@ -29,6 +29,11 @@ body{
                         a {
                             text-decoration: none;
                             color: #000;
+
+                            &:nth-child(2) {
+                                color: #ff910b;
+                                text-decoration: underline;
+                            }
 
                             button {
                                 padding: 0.5rem 2rem;
@@ -44,14 +49,14 @@ body{
             }
         }
 
-        section {
+        .home_sec_first {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
 
             .plug_your_business_sec {
                 padding-top: 12rem;
-                .header_head {
+                .header_head, .design_head {
                     font-weight: bolder;
                     font-size: 3rem;
     
@@ -87,6 +92,49 @@ body{
                 padding-top: 5rem;
             }
             
+        }
+
+        // Design Page
+
+        .design_sec {
+            background: linear-gradient(107deg, #5f78da, #303c6d);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            color: #fff;
+            padding: 4rem 0;
+
+            .design_col_one {
+                padding-top: 6rem;
+
+                .design_breadcrumbs {
+                    a {
+                        color: #fff;
+                    }
+                }
+
+                .design_head {
+                    margin-top: 2rem;
+                }
+
+                .design_sub {
+                    span {
+                        display: block;
+                    }
+                }
+
+                .primary_services {
+                    margin-top: 2rem;
+                    font-size: 1rem;
+                    display: flex;
+                    justify-content: space-between;
+
+                    a {
+                        color: #ff910b;
+                        text-decoration: none;
+                    }
+                }
+            }
         }
     }
 
@@ -370,6 +418,73 @@ body{
                 }
             }
         }
+
+        // Design Page
+
+        .logo_design, .ui_design, .website_design, .social_media_design, .brochure_design {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.15rem;
+
+            .logo_design_image, .ui_design_image, .website_design_image, .social_media_design_image, .brochure_design_image {
+                img {
+                    height: 35vh;
+                }
+            }
+
+            .logo_desc, .ui_desc, .website_desc, .social_media_desc, .brochure_desc {
+                padding: 0 2rem;
+
+                div {
+                    margin-top: 1.5rem;
+                }
+            }
+        }
+
+        .ui_design, .social_media_design {
+            background-color: #f5f5f5;
+        }
+
+        .our_work {
+            background: linear-gradient(107deg, #5f78da, #303c6d);
+            height: 55vh;    
+            margin: 2em auto;
+            text-align: center;
+
+            h2 {
+                color: #fff;
+            }
+        
+            #content-2, #content-3 {
+                display: none;
+            }
+        
+            #content-1, #content-2, #content-3 {
+                padding-top: 50px;
+            }
+
+            .tabs {
+                margin-top: 2rem;
+                display: flex;
+                justify-content: space-around;
+        
+                .tablinks {
+                    width: 15%;
+                    background-color: transparent;
+                    border: solid 1px #707070;
+                    color: #fff;
+                    font-weight: bold;
+                    padding: 8px 0;
+                    border-radius: 0.75rem;
+                    outline: none;
+                }
+        
+                .active {
+                    background-color: #8278e1;
+                    outline: none;
+                }
+            }
+        } 
     }
 
     footer {

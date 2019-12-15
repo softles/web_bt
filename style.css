@@ -14,7 +14,6 @@ body header {
   background-color: #fff;
   position: relative;
   height: 95vh;
-  padding: 1rem;
 }
 
 body header nav {
@@ -24,6 +23,7 @@ body header nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 1rem 0 1rem 0;
 }
 
 body header nav .nav_links ul li {
@@ -37,6 +37,11 @@ body header nav .nav_links ul li a {
   color: #000;
 }
 
+body header nav .nav_links ul li a:nth-child(2) {
+  color: #ff910b;
+  text-decoration: underline;
+}
+
 body header nav .nav_links ul li a button {
   padding: 0.5rem 2rem;
   border-radius: 5rem;
@@ -47,7 +52,7 @@ body header nav .nav_links ul li a button {
   outline: none;
 }
 
-body header section {
+body header .home_sec_first {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,38 +63,84 @@ body header section {
           justify-content: space-evenly;
 }
 
-body header section .plug_your_business_sec {
+body header .home_sec_first .plug_your_business_sec {
   padding-top: 12rem;
 }
 
-body header section .plug_your_business_sec .header_head {
+body header .home_sec_first .plug_your_business_sec .header_head, body header .home_sec_first .plug_your_business_sec .design_head {
   font-weight: bolder;
   font-size: 3rem;
 }
 
-body header section .plug_your_business_sec .header_head span {
+body header .home_sec_first .plug_your_business_sec .header_head span, body header .home_sec_first .plug_your_business_sec .design_head span {
   color: #3f51b5;
 }
 
-body header section .plug_your_business_sec .primary_buttons a button {
+body header .home_sec_first .plug_your_business_sec .primary_buttons a button {
   padding: 0.75rem 2rem;
   border-radius: 0.5rem;
   outline: none;
 }
 
-body header section .plug_your_business_sec .primary_buttons a .primary_buttons_primary {
+body header .home_sec_first .plug_your_business_sec .primary_buttons a .primary_buttons_primary {
   background-color: #3f51b5;
   color: #fff;
   border: none;
 }
 
-body header section .plug_your_business_sec .primary_buttons a .primary_buttons_secondary {
+body header .home_sec_first .plug_your_business_sec .primary_buttons a .primary_buttons_secondary {
   background: none;
   border: solid 2px orange;
 }
 
-body header section .header_image {
+body header .home_sec_first .header_image {
   padding-top: 5rem;
+}
+
+body header .design_sec {
+  background: linear-gradient(107deg, #5f78da, #303c6d);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #fff;
+  padding: 4rem 0;
+}
+
+body header .design_sec .design_col_one {
+  padding-top: 6rem;
+}
+
+body header .design_sec .design_col_one .design_breadcrumbs a {
+  color: #fff;
+}
+
+body header .design_sec .design_col_one .design_head {
+  margin-top: 2rem;
+}
+
+body header .design_sec .design_col_one .design_sub span {
+  display: block;
+}
+
+body header .design_sec .design_col_one .primary_services {
+  margin-top: 2rem;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .design_sec .design_col_one .primary_services a {
+  color: #ff910b;
+  text-decoration: none;
 }
 
 body main section {
@@ -406,6 +457,76 @@ body main .reach_us_section .reach_us_card_section .reach_us_card .schedule_call
 
 body main .reach_us_section .reach_us_card_section .reach_us_card .schedule_call .schedule_call_btn {
   padding: 0.5rem 3rem;
+}
+
+body main .logo_design, body main .ui_design, body main .website_design, body main .social_media_design, body main .brochure_design {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.15rem;
+}
+
+body main .logo_design .logo_design_image img, body main .logo_design .ui_design_image img, body main .logo_design .website_design_image img, body main .logo_design .social_media_design_image img, body main .logo_design .brochure_design_image img, body main .ui_design .logo_design_image img, body main .ui_design .ui_design_image img, body main .ui_design .website_design_image img, body main .ui_design .social_media_design_image img, body main .ui_design .brochure_design_image img, body main .website_design .logo_design_image img, body main .website_design .ui_design_image img, body main .website_design .website_design_image img, body main .website_design .social_media_design_image img, body main .website_design .brochure_design_image img, body main .social_media_design .logo_design_image img, body main .social_media_design .ui_design_image img, body main .social_media_design .website_design_image img, body main .social_media_design .social_media_design_image img, body main .social_media_design .brochure_design_image img, body main .brochure_design .logo_design_image img, body main .brochure_design .ui_design_image img, body main .brochure_design .website_design_image img, body main .brochure_design .social_media_design_image img, body main .brochure_design .brochure_design_image img {
+  height: 35vh;
+}
+
+body main .logo_design .logo_desc, body main .logo_design .ui_desc, body main .logo_design .website_desc, body main .logo_design .social_media_desc, body main .logo_design .brochure_desc, body main .ui_design .logo_desc, body main .ui_design .ui_desc, body main .ui_design .website_desc, body main .ui_design .social_media_desc, body main .ui_design .brochure_desc, body main .website_design .logo_desc, body main .website_design .ui_desc, body main .website_design .website_desc, body main .website_design .social_media_desc, body main .website_design .brochure_desc, body main .social_media_design .logo_desc, body main .social_media_design .ui_desc, body main .social_media_design .website_desc, body main .social_media_design .social_media_desc, body main .social_media_design .brochure_desc, body main .brochure_design .logo_desc, body main .brochure_design .ui_desc, body main .brochure_design .website_desc, body main .brochure_design .social_media_desc, body main .brochure_design .brochure_desc {
+  padding: 0 2rem;
+}
+
+body main .logo_design .logo_desc div, body main .logo_design .ui_desc div, body main .logo_design .website_desc div, body main .logo_design .social_media_desc div, body main .logo_design .brochure_desc div, body main .ui_design .logo_desc div, body main .ui_design .ui_desc div, body main .ui_design .website_desc div, body main .ui_design .social_media_desc div, body main .ui_design .brochure_desc div, body main .website_design .logo_desc div, body main .website_design .ui_desc div, body main .website_design .website_desc div, body main .website_design .social_media_desc div, body main .website_design .brochure_desc div, body main .social_media_design .logo_desc div, body main .social_media_design .ui_desc div, body main .social_media_design .website_desc div, body main .social_media_design .social_media_desc div, body main .social_media_design .brochure_desc div, body main .brochure_design .logo_desc div, body main .brochure_design .ui_desc div, body main .brochure_design .website_desc div, body main .brochure_design .social_media_desc div, body main .brochure_design .brochure_desc div {
+  margin-top: 1.5rem;
+}
+
+body main .ui_design, body main .social_media_design {
+  background-color: #f5f5f5;
+}
+
+body main .our_work {
+  background: linear-gradient(107deg, #5f78da, #303c6d);
+  height: 55vh;
+  margin: 2em auto;
+  text-align: center;
+}
+
+body main .our_work h2 {
+  color: #fff;
+}
+
+body main .our_work #content-2, body main .our_work #content-3 {
+  display: none;
+}
+
+body main .our_work #content-1, body main .our_work #content-2, body main .our_work #content-3 {
+  padding-top: 50px;
+}
+
+body main .our_work .tabs {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body main .our_work .tabs .tablinks {
+  width: 15%;
+  background-color: transparent;
+  border: solid 1px #707070;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 0;
+  border-radius: 0.75rem;
+  outline: none;
+}
+
+body main .our_work .tabs .active {
+  background-color: #8278e1;
+  outline: none;
 }
 
 body footer {
