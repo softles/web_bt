@@ -56,8 +56,6 @@ body header .home_sec_first {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -102,8 +100,6 @@ body header .design_sec {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -156,8 +152,6 @@ body main .how_we_work_back .how_we_work_section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -220,8 +214,6 @@ body main .solution_section .solution_card_section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 body main .solution_section .solution_card_section .solution_card {
@@ -576,5 +568,35 @@ body footer .footer_sub .social_icons i {
 
 body footer .footer_sub .copyright {
   font-size: 1rem;
+}
+
+@media screen and (max-width: 1388px) {
+  body main .how_we_work_back .how_we_work_section .how_we_work_section_image img {
+    height: 20rem;
+  }
+  body main .how_we_work_back .how_we_work_section .how_we_work_section_steps h2 {
+    font-size: 1.5rem;
+  }
+  body main .how_we_work_back .how_we_work_section .how_we_work_section_steps h5 {
+    font-size: 1.25rem;
+  }
+  body main .how_we_work_back .how_we_work_section .how_we_work_section_steps span p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1164px) {
+  body header .home_sec_first .plug_your_business_sec {
+    padding-top: 9rem;
+  }
+  body header .home_sec_first .plug_your_business_sec .header_head, body header .home_sec_first .plug_your_business_sec .design_head {
+    font-size: 2rem;
+  }
+  body header .home_sec_first .header_image img {
+    height: 20rem;
+  }
+  body header .home_sec_first .plug_your_business_sec .primary_buttons a button {
+    padding: 0.75rem 1.5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
