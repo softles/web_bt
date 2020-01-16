@@ -759,6 +759,10 @@ body footer .footer_sub .copyright {
   body header .home_sec_first .header_image {
     padding-top: 7rem;
   }
+  body main .how_we_work_back .how_we_work_section .how_we_work_section_image img {
+    height: 21rem;
+    margin-top: 0rem;
+  }
   body header .home_sec_first .header_image img {
     height: 22rem;
   }
@@ -800,13 +804,13 @@ body footer .footer_sub .copyright {
   }
   body main .portfolio_section .portfolio .portfolio_slider {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_image img {
-    max-width: 100%;
-    height: auto;
+    width: 39rem;
+    margin-top: 0rem;
   }
   body main .reach_us_section .reach_us_card_section {
     -ms-grid-columns: 1fr;
@@ -814,6 +818,198 @@ body footer .footer_sub .copyright {
   }
   body main .reach_us_section .reach_us_card_section .reach_us_card {
     margin: 1rem 0.75rem;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_image img {
+    width: 37rem;
+  }
+  body footer .footer_main {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  body footer .footer_main ul {
+    width: 30%;
+    margin: auto;
+    padding: 20px 0;
+    border-bottom: solid 2px #000;
+  }
+  body footer .footer_main span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_image img {
+    width: 32rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_image img {
+    width: 25rem;
+  }
+  body main .reach_us_section .reach_us_card_section .reach_us_card .schedule_call input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body header .home_sec_first .header_image img {
+    height: 21rem;
+  }
+  body header .home_sec_first .plug_your_business_sec .header_head, body header .home_sec_first .plug_your_business_sec .design_head {
+    font-size: 2.25rem;
+  }
+  body main .solution_section .solution_card_section .solution_card {
+    width: 100%;
+  }
+  body main .portfolio_section .portfolio {
+    padding: 3rem 3.5rem;
+  }
+}
+
+@media screen and (max-width: 484px) {
+  body header .home_sec_first .plug_your_business_sec .header_head, body header .home_sec_first .plug_your_business_sec .design_head {
+    font-size: 2rem;
+  }
+  body main .how_we_work_back .how_we_work_section {
+    height: 92vh;
+  }
+  body main .how_we_work_back .how_we_work_section .how_we_work_section_image img {
+    height: 15rem;
+  }
+  body main .solution_section .solution_sec_head .solution_sec_head_primary, body main .portfolio_section .portfolio_sec_head .portfolio_sec_head_primary, body main .reach_us_section .reach_us_section_head .reach_us_section_head_primary {
+    font-size: 1.75rem;
+  }
+  body main .solution_section .solution_sec_head .solution_sec_head_secondary, body main .portfolio_section .portfolio_sec_head .portfolio_sec_head_secondary, body main .reach_us_section .reach_us_section_head .reach_us_section_head_secondary, body main .reach_us_section .reach_us_card_section .reach_us_card .reach_us_card_head {
+    font-size: 1.25rem;
+  }
+  body main .portfolio_section .portfolio {
+    padding: 3rem 1.5rem;
+  }
+  body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_image img {
+    width: 22rem;
+  }
+  body main .reach_us_section .reach_us_card_section .reach_us_card form input, body main .reach_us_section .reach_us_card_section .reach_us_card form textarea, body main .reach_us_section .reach_us_card_section .reach_us_card form button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  body header {
+    height: 80vh;
+  }
+  body main section {
+    padding: 4rem 1rem;
+  }
+  body header .home_sec_first .header_image img {
+    height: 16rem;
+  }
+  body header .home_sec_first .plug_your_business_sec .header_head, body header .home_sec_first .plug_your_business_sec .design_head {
+    font-size: 1.75rem;
+  }
+  body main .solution_section .solution_sec_head .solution_sec_head_primary, body main .portfolio_section .portfolio_sec_head .portfolio_sec_head_primary, body main .reach_us_section .reach_us_section_head .reach_us_section_head_primary {
+    font-size: 1.5rem;
+  }
+  body main .solution_section .solution_sec_head .solution_sec_head_secondary, body main .portfolio_section .portfolio_sec_head .portfolio_sec_head_secondary, body main .reach_us_section .reach_us_section_head .reach_us_section_head_secondary, body main .reach_us_section .reach_us_card_section .reach_us_card .reach_us_card_head {
+    font-size: 1rem;
+  }
+  body footer .footer_main ul {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  body main .how_we_work_back .how_we_work_section {
+    padding: 2rem 0;
+  }
+  body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_image img {
+    width: 21rem;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  body header .home_sec_first .plug_your_business_sec {
+    padding: 1rem 0.5rem 0 0.5rem;
+  }
+  body header .home_sec_first .plug_your_business_sec .primary_buttons a button {
+    padding: 0.75rem 1.25rem;
+  }
+  body main .how_we_work_back .how_we_work_section .how_we_work_section_image img {
+    height: 14rem;
+  }
+  body main .how_we_work_back .how_we_work_section .how_we_work_section_steps span p {
+    font-size: 0.8rem;
+  }
+  body main .solution_section .solution_sec_head .solution_sec_head_primary, body main .portfolio_section .portfolio_sec_head .portfolio_sec_head_primary, body main .reach_us_section .reach_us_section_head .reach_us_section_head_primary {
+    font-size: 1.25rem;
+  }
+  body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_image img {
+    width: 19rem;
+  }
+  body footer .footer_main ul {
+    width: 52%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body main section {
+    padding: 4rem 0.5rem;
+  }
+  body header {
+    height: 73vh;
+  }
+  body header .home_sec_first .header_image img {
+    height: 14rem;
+  }
+  body header .home_sec_first .plug_your_business_sec .header_head, body header .home_sec_first .plug_your_business_sec .design_head {
+    font-size: 1.5rem;
+  }
+  body header .home_sec_first .plug_your_business_sec .primary_buttons a button {
+    padding: 0.75rem 1rem;
+  }
+  body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_image img {
+    width: 17rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body header {
+    height: 68vh;
+  }
+  body header .home_sec_first .header_image img {
+    height: 12rem;
+  }
+  body header .home_sec_first .plug_your_business_sec .primary_buttons a button {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.8rem;
+  }
+  body main .how_we_work_back .how_we_work_section {
+    height: 82vh;
+  }
+  body main .how_we_work_back .how_we_work_section .how_we_work_section_image img {
+    height: 11rem;
+  }
+  body main .how_we_work_back .how_we_work_section .how_we_work_section_steps span p span {
+    padding: 0.5rem 0.75rem;
+  }
+  body main .how_we_work_back .how_we_work_section .how_we_work_section_steps span p {
+    font-size: 0.72rem;
+  }
+  body main .portfolio_section .portfolio .portfolio_slider .portfolio_slider_image img {
+    width: 16rem;
+  }
+  body main .reach_us_section .reach_us_card_section .reach_us_card form input, body main .reach_us_section .reach_us_card_section .reach_us_card form textarea, body main .reach_us_section .reach_us_card_section .reach_us_card form button {
+    font-size: 0.8rem;
+  }
+  body footer .footer_main ul {
+    width: 60%;
   }
 }
 /*# sourceMappingURL=style.css.map */
