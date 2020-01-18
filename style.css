@@ -13,7 +13,7 @@ body {
 body header {
   background-color: #fff;
   position: relative;
-  height: 95vh;
+  height: 674px;
 }
 
 body header nav {
@@ -161,7 +161,7 @@ body main .how_we_work_back {
 }
 
 body main .how_we_work_back .how_we_work_section {
-  height: 70vh;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -592,7 +592,7 @@ body footer .footer_sub .copyright {
 
 @media screen and (max-width: 1388px) {
   body main .how_we_work_back .how_we_work_section {
-    height: 65vh;
+    height: 460px;
   }
   body main .how_we_work_back .how_we_work_section .how_we_work_section_steps h2 {
     font-size: 1.5rem;
@@ -626,7 +626,7 @@ body footer .footer_sub .copyright {
 
 @media screen and (max-width: 1164px) {
   body header {
-    height: 74vh;
+    height: 525px;
   }
   body header .home_sec_first .plug_your_business_sec {
     padding-top: 9rem;
@@ -647,7 +647,7 @@ body footer .footer_sub .copyright {
 
 @media screen and (max-width: 1144px) {
   body main .how_we_work_back .how_we_work_section {
-    height: 62vh;
+    height: 440px;
   }
   body main .how_we_work_back .how_we_work_section .how_we_work_section_image img {
     height: 23rem;
@@ -656,7 +656,7 @@ body footer .footer_sub .copyright {
 
 @media screen and (max-width: 1080px) {
   body main .how_we_work_back .how_we_work_section {
-    height: 60vh;
+    height: 425px;
   }
   body main .how_we_work_back .how_we_work_section .how_we_work_section_image img {
     height: 20rem;
@@ -742,7 +742,7 @@ body footer .footer_sub .copyright {
     color: #fff;
   }
   body header {
-    height: 100vh;
+    height: 710px;
   }
   body header .home_sec_first {
     -webkit-box-pack: unset;
@@ -773,7 +773,7 @@ body footer .footer_sub .copyright {
     font-size: 2.5rem;
   }
   body main .how_we_work_back .how_we_work_section {
-    height: 110vh;
+    height: 780px;
     -webkit-box-pack: unset;
         -ms-flex-pack: unset;
             justify-content: unset;
@@ -879,7 +879,7 @@ body footer .footer_sub .copyright {
     font-size: 2rem;
   }
   body main .how_we_work_back .how_we_work_section {
-    height: 92vh;
+    height: 625px;
   }
   body main .how_we_work_back .how_we_work_section .how_we_work_section_image img {
     height: 15rem;
@@ -903,7 +903,7 @@ body footer .footer_sub .copyright {
 
 @media screen and (max-width: 440px) {
   body header {
-    height: 80vh;
+    height: 570px;
   }
   body main section {
     padding: 4rem 1rem;
@@ -963,7 +963,7 @@ body footer .footer_sub .copyright {
     padding: 4rem 0.5rem;
   }
   body header {
-    height: 73vh;
+    height: 520px;
   }
   body header .home_sec_first .header_image img {
     height: 14rem;
@@ -981,7 +981,7 @@ body footer .footer_sub .copyright {
 
 @media screen and (max-width: 320px) {
   body header {
-    height: 68vh;
+    height: 480px;
   }
   body header .home_sec_first .header_image img {
     height: 12rem;
@@ -991,7 +991,7 @@ body footer .footer_sub .copyright {
     font-size: 0.8rem;
   }
   body main .how_we_work_back .how_we_work_section {
-    height: 82vh;
+    height: 580px;
   }
   body main .how_we_work_back .how_we_work_section .how_we_work_section_image img {
     height: 11rem;
